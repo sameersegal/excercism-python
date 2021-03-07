@@ -12,7 +12,7 @@ This runs the docker image in an interactive mode. `code` is mounted at `/root/e
 
 ## 2. Building Docker Image
 
-Run the following command in `docker` folder. Copy the token from `https://exercism.io/my/settings` link
+Run the following command in `docker` folder. Copy the token from [https://exercism.io/my/settings](https://exercism.io/my/settings) link
 
 ```
 docker build -t ss-python --build-arg token="XXXX-XXXX" .
