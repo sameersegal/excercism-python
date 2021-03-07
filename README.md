@@ -4,7 +4,7 @@ Using a docker image to run exercism. The image is based on python:3-alpine. `ba
 
 ## 1. Run
 
-This runs the docker image in an interactive mode. `code` is mounted at `/root/excercism/python'
+This runs the docker image in an interactive mode. `code` is mounted at `/root/excercism/python`
 
 ```
 ./run.sh
