@@ -1,6 +1,11 @@
 # Excercism Python Track with Docker
 
-Using a docker image to run exercism. The image is based on python:3-alpine. `bash` is installed. `excercism` is installed from source. And requried pip packages (`docker/requirements.txt`) are installed . 
+Using a docker image to run exercism to keep it simple and not let it affect the tooling on my machine.
+
+The image is based on python:3-alpine, with the following modifications:
+ * `bash` is installed. 
+ * `excercism` is installed from source. 
+ * requried pip packages (`docker/requirements.txt`) are installed. 
 
 ## 1. Run
 
